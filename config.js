@@ -2,45 +2,45 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "game", 
     // dnd/online/idle
-    "status": "",
+    "status": "online",
 
     "game": {
-        "applicationID": "",
+        "applicationID": "1185943187404111902",
 
-        "name": "", // title
-        "details": "", // first row below title
-        "state": "", // row below first row
+        "name": "with Hu Tao", // title
+        "details": "Competitive", // first row below title
+        "state": "Harcore", // row below first row
 
-        "largeImageKey": "", // Large Image
-        "largeImageText": "", // the text when img surrounded (default is largeimage name in dev portal)
+        "largeImageKey": "largeimage", // Large Image
+        "largeImageText": "largeimage", // the text when img surrounded (default is largeimage name in dev portal)
 
-        "smallImageKey": "", // Small Image
-        "smallImageText": "",
+        "smallImageKey": "smallimage", // Small Image
+        "smallImageText": "smallimage",
         
         // Date.now() Epoch timestamps
         "startTimestamp": "", // time elapsed since this timestamp (increase ++)
         "endTimestamp": "" // time left since this timestamp (decrease --)
     },
     "twitch": {
-        "applicationID": "",
+        "applicationID": "1185943187404111902",
         "url": "", // twitch channel link
 
         "details": "", // title
         "state": "", // first row below title (playing ...)
 
-        "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
-        "largeImageText": "", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
+        "largeImageKey": "largeimage", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
+        "largeImageText": "largeimage", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
         
-        "smallImageKey": "",
-        "smallImageText": "",
+        "smallImageKey": "smallimage",
+        "smallImageText": "smallimage",
 
         "startTimestamp": "",
         "endTimestamp": ""
     },
     "spotify": {
-        "name": "", // for exemple listening to {name} instead of listening to spotify
+        "name": "1185943187404111902", // for exemple listening to {name} instead of listening to spotify
         "details": "", // title
         "state": "", // row below title
 
