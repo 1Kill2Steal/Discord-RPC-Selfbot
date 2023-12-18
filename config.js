@@ -25,10 +25,10 @@ module.exports = {
     },
     "twitch": {
         "applicationID": "1185943187404111902",
-        "url": "https://www.youtube.com/channel/UC_MrwWC4QatHk9MfshnvFWg", // twitch channel link
+        "url": "https://www.twitch.tv/1kill2steal", // twitch channel link
 
-        "details": "✧⁺₊⋆ W/ Hu Tao『♛』⋆⁺₊✧", // title
-        "state": "♡ «Hu Tao»『🎴』", // first row below title (playing ...)
+        "details": "✧⁺₊⋆ Hu Tao『♛』⋆⁺₊✧", // title
+        "state": "with: ♡ «Hu Tao»『🎴』", // first row below title (playing ...)
 
         "largeImageKey": "largeimage", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
         "largeImageText": "⊰≍✿≍⌞〝HU TAO〞⌝≍✿≍⊱", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
