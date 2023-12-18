@@ -4,6 +4,7 @@ const config = require("./config")
 const express = require('express');
 const console = require("./utils/logger")
 const app = express();
+require('dotenv').config();
 
 module.exports = client;
 process.env.TOKEN ? client.login(process.env.TOKEN) : console.exit("No token provided");

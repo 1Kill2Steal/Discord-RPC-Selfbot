@@ -2,9 +2,9 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "game", 
+    "mode": "twitch", 
     // dnd/online/idle
-    "status": "online",
+    "status": "streaming",
 
     "game": {
         "applicationID": "1185943187404111902",
@@ -14,10 +14,10 @@ module.exports = {
         "state": "Harcore", // row below first row
 
         "largeImageKey": "largeimage", // Large Image
-        "largeImageText": "largeimage", // the text when img surrounded (default is largeimage name in dev portal)
+        "largeImageText": "HU TAO NUMBER 1", // the text when img surrounded (default is largeimage name in dev portal)
 
         "smallImageKey": "smallimage", // Small Image
-        "smallImageText": "smallimage",
+        "smallImageText": "HU TAO NUMBER 1",
         
         // Date.now() Epoch timestamps
         "startTimestamp": "", // time elapsed since this timestamp (increase ++)
@@ -25,16 +25,16 @@ module.exports = {
     },
     "twitch": {
         "applicationID": "1185943187404111902",
-        "url": "", // twitch channel link
+        "url": "https://www.youtube.com/channel/UC_MrwWC4QatHk9MfshnvFWg", // twitch channel link
 
-        "details": "", // title
-        "state": "", // first row below title (playing ...)
+        "details": "✧⁺₊⋆ W/ Hu Tao『♛』⋆⁺₊✧", // title
+        "state": "♡ «Hu Tao»『🎴』", // first row below title (playing ...)
 
         "largeImageKey": "largeimage", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
-        "largeImageText": "largeimage", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
+        "largeImageText": "⊰≍✿≍⌞〝HU TAO〞⌝≍✿≍⊱", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
         
         "smallImageKey": "smallimage",
-        "smallImageText": "smallimage",
+        "smallImageText": "HU TAO NUMBER 1",
 
         "startTimestamp": "",
         "endTimestamp": ""
